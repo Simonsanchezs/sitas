@@ -1,0 +1,17 @@
+type Flight {
+    id: ID!
+    origin: String!
+    destination: String!
+    date: String!
+    baggageType: String!
+    classType: String!
+    price: Float!
+    availableSeats: Int!
+}
+type Query {
+    findFlights(
+
+    ): [Flight]
+}
+
+
